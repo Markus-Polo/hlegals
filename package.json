@@ -62,7 +62,6 @@
   },
   "lint-staged": {
     "*.{css,scss}": "stylelint --fix",
-    "*.{html,js,scss,css,md}": "prettier --write",
-    "*.pug": "pug-lint"
+    "*.{html,js,scss,css,md}": "prettier --write"
   }
 }
