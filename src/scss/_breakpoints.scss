@@ -4,33 +4,28 @@ $lg: 992px;
 $xl: 1200px;
 $xxl: 1400px;
 
-@mixin md_screen {
+@mixin sm-screen {
   @media screen and (min-width: $sm) {
-    max-width: 540px;
     @content;
   }
 }
-@mixin md_screen {
+@mixin md-screen {
   @media screen and (min-width: $md) {
-    max-width: 720px;
     @content;
   }
 }
-@mixin lg_screen {
+@mixin lg-screen {
   @media screen and (min-width: $lg) {
-    max-width: 960px;
     @content;
   }
 }
-@mixin xl_screen {
+@mixin xl-screen {
   @media screen and (min-width: $xl) {
-    max-width: 1140px;
     @content;
   }
 }
-@mixin xxl_screen {
+@mixin xxl-screen {
   @media screen and (min-width: $xxl) {
-    max-width: 1360px;
     @content;
   }
 }
