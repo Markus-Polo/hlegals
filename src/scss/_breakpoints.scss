@@ -19,7 +19,7 @@ $xxl: 1400px;
     @content;
   }
 }
-@mixin xl-screen {
+@mixin xl_screen {
   @media screen and (min-width: $xl) {
     @content;
   }
